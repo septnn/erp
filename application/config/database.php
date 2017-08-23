@@ -73,11 +73,11 @@ define('OPTIONS','ci_options');
 define('PRINTTEMPLATES','ci_printtemplates');
 $active_group = 'default';
 $active_record = TRUE;
-$db['default']['hostname'] = 'localhost';   //数据库地址
-$db['default']['username'] = 'root';        //数据库用户名
-$db['default']['password'] = '';            //数据库密码
-$db['default']['database'] = 'erp';   //数据库名称
-$db['default']['dbdriver'] = 'mysql';
+$db['default']['hostname'] = 'localhost';
+$db['default']['username'] = 'root';
+$db['default']['password'] = '';
+$db['default']['database'] = 'erp';
+$db['default']['dbdriver'] = 'pdo';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
 $db['default']['db_debug'] = FALSE;
